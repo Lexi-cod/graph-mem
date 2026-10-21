@@ -20,6 +20,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest>=8", "pytest-asyncio>=0.24"]
 bench = ["faiss-cpu>=1.8", "mem0ai>=2.2", "spacy>=3.8", "fastembed>=0.9"]
+api = ["langgraph>=1.0", "fastapi>=0.115", "uvicorn[standard]>=0.30"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/graphmem"]

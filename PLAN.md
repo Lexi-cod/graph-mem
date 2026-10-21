@@ -16,6 +16,17 @@ answers (thinking on), qwen3-32b-judge (thinking off), contradiction `rules`, la
 alpha 1.0, k 10, 1-hop expansion on, provenance on, pruning off, merge thresholds
 0.94 / 0.95 (Events, overlapping dates). No further tuning on any conversation.
 
+## Phase 3 (branch `phase3`, built while Phase 4 ran from tag `phase4-frozen`)
+- `graphmem.service.MemoryService`: query / update (one turn: extract -> resolve -> write ->
+  retire, previous turns of the conversation as extraction context) / prune; per-conversation
+  write lock.
+- `graphmem.agent.MemoryAgent` (LangGraph): retrieve -> reason -> [write] -> answer -> [prune
+  every N turns]; prune node honors `prune_enabled` (off in the frozen config).
+- `graphmem.api` (FastAPI): POST /memory/query, /memory/update, /memory/prune, /agent/turn;
+  GET /health. Run: `uvicorn graphmem.api:app --port 8000` (install extra `api`).
+- Not merged into `main` until Phase 4 finishes (merging changes source hashes, so the
+  freeze check would then report drift by design).
+
 ## Next
 - Phase 3: LangGraph agent (retrieve -> reason -> optional write -> answer; prune every N
   turns) + FastAPI (`/memory/query`, `/memory/update`, `/memory/prune`).
