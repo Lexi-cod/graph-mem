@@ -1,0 +1,499 @@
+{
+  "provenance": {
+    "commit": "d754326f3611ad08fb6dcb1de68677db7447410c",
+    "tag": "phase4-frozen"
+  },
+  "graphmem_ingest": {
+    "conv-41": {
+      "stats": {
+        "conversation": "conv-41",
+        "turns": 663,
+        "extraction_cache_hits": 0,
+        "extraction_failed": 0,
+        "entities_kept": 792,
+        "relations_kept": 873,
+        "facts_dropped": {
+          "evidence_not_in_turn": 145,
+          "question": 60,
+          "knows_between_speakers": 55,
+          "subject_not_in_turn": 11,
+          "type_violation": 9,
+          "family_not_stated": 2
+        },
+        "converted_unknown_type": 8,
+        "fuzzy_evidence_accepted": 2,
+        "nodes_created": 326,
+        "merged_exact": 459,
+        "merged_embedding": 7,
+        "blocked_event_merges": 0,
+        "facts_created": 836,
+        "facts_reinforced": 36,
+        "facts_stored_closed": 1,
+        "retired_ended": 0,
+        "retired_schema_rule": 4,
+        "retired_llm": 0,
+        "llm_checks": 0,
+        "llm_check_failed": 0,
+        "llm_pairs": 0,
+        "llm_pairs_unlabelled": 0,
+        "llm_labels": {},
+        "apply_s": 72.32799999997951
+      },
+      "graph": {
+        "entities": 326,
+        "current_facts": 832,
+        "superseded_facts": 5,
+        "archived_facts": 0
+      },
+      "turns": 663
+    },
+    "conv-42": {
+      "stats": {
+        "conversation": "conv-42",
+        "turns": 629,
+        "extraction_cache_hits": 0,
+        "extraction_failed": 0,
+        "entities_kept": 807,
+        "relations_kept": 781,
+        "facts_dropped": {
+          "evidence_not_in_turn": 98,
+          "knows_between_speakers": 48,
+          "question": 46,
+          "subject_not_in_turn": 9,
+          "type_violation": 6
+        },
+        "converted_unknown_type": 11,
+        "fuzzy_evidence_accepted": 13,
+        "nodes_created": 324,
+        "merged_exact": 481,
+        "merged_embedding": 2,
+        "blocked_event_merges": 0,
+        "facts_created": 738,
+        "facts_reinforced": 43,
+        "facts_stored_closed": 0,
+        "retired_ended": 0,
+        "retired_schema_rule": 1,
+        "retired_llm": 0,
+        "llm_checks": 0,
+        "llm_check_failed": 0,
+        "llm_pairs": 0,
+        "llm_pairs_unlabelled": 0,
+        "llm_labels": {},
+        "apply_s": 63.17200000002049
+      },
+      "graph": {
+        "entities": 324,
+        "current_facts": 737,
+        "superseded_facts": 1,
+        "archived_facts": 0
+      },
+      "turns": 629
+    },
+    "conv-43": {
+      "stats": {
+        "conversation": "conv-43",
+        "turns": 680,
+        "extraction_cache_hits": 0,
+        "extraction_failed": 0,
+        "entities_kept": 885,
+        "relations_kept": 878,
+        "facts_dropped": {
+          "evidence_not_in_turn": 135,
+          "question": 58,
+          "knows_between_speakers": 14,
+          "type_violation": 13,
+          "subject_not_in_turn": 9,
+          "family_not_stated": 1
+        },
+        "converted_unknown_type": 22,
+        "fuzzy_evidence_accepted": 3,
+        "nodes_created": 396,
+        "merged_exact": 480,
+        "merged_embedding": 9,
+        "blocked_event_merges": 1,
+        "facts_created": 841,
+        "facts_reinforced": 37,
+        "facts_stored_closed": 0,
+        "retired_ended": 0,
+        "retired_schema_rule": 2,
+        "retired_llm": 0,
+        "llm_checks": 0,
+        "llm_check_failed": 0,
+        "llm_pairs": 0,
+        "llm_pairs_unlabelled": 0,
+        "llm_labels": {},
+        "apply_s": 71.95299999997951
+      },
+      "graph": {
+        "entities": 396,
+        "current_facts": 839,
+        "superseded_facts": 2,
+        "archived_facts": 0
+      },
+      "turns": 680
+    },
+    "conv-44": {
+      "stats": {
+        "conversation": "conv-44",
+        "turns": 675,
+        "extraction_cache_hits": 0,
+        "extraction_failed": 0,
+        "entities_kept": 984,
+        "relations_kept": 943,
+        "facts_dropped": {
+          "evidence_not_in_turn": 154,
+          "question": 57,
+          "subject_not_in_turn": 23,
+          "type_violation": 17,
+          "knows_between_speakers": 10,
+          "negated_participation": 1,
+          "self_relation": 1
+        },
+        "converted_unknown_type": 21,
+        "fuzzy_evidence_accepted": 4,
+        "nodes_created": 369,
+        "merged_exact": 605,
+        "merged_embedding": 10,
+        "blocked_event_merges": 2,
+        "facts_created": 834,
+        "facts_reinforced": 109,
+        "facts_stored_closed": 0,
+        "retired_ended": 0,
+        "retired_schema_rule": 4,
+        "retired_llm": 0,
+        "llm_checks": 0,
+        "llm_check_failed": 0,
+        "llm_pairs": 0,
+        "llm_pairs_unlabelled": 0,
+        "llm_labels": {},
+        "apply_s": 73.07799999997951
+      },
+      "graph": {
+        "entities": 369,
+        "current_facts": 830,
+        "superseded_facts": 4,
+        "archived_facts": 0
+      },
+      "turns": 675
+    },
+    "conv-47": {
+      "stats": {
+        "conversation": "conv-47",
+        "turns": 689,
+        "extraction_cache_hits": 0,
+        "extraction_failed": 0,
+        "entities_kept": 848,
+        "relations_kept": 839,
+        "facts_dropped": {
+          "evidence_not_in_turn": 174,
+          "question": 49,
+          "knows_between_speakers": 46,
+          "subject_not_in_turn": 16,
+          "type_violation": 11,
+          "negated_participation": 1
+        },
+        "converted_unknown_type": 16,
+        "fuzzy_evidence_accepted": 1,
+        "nodes_created": 379,
+        "merged_exact": 466,
+        "merged_embedding": 3,
+        "blocked_event_merges": 0,
+        "facts_created": 808,
+        "facts_reinforced": 31,
+        "facts_stored_closed": 0,
+        "retired_ended": 0,
+        "retired_schema_rule": 2,
+        "retired_llm": 0,
+        "llm_checks": 0,
+        "llm_check_failed": 0,
+        "llm_pairs": 0,
+        "llm_pairs_unlabelled": 0,
+        "llm_labels": {},
+        "apply_s": 76.18799999996554
+      },
+      "graph": {
+        "entities": 379,
+        "current_facts": 806,
+        "superseded_facts": 2,
+        "archived_facts": 0
+      },
+      "turns": 689
+    },
+    "conv-48": {
+      "stats": {
+        "conversation": "conv-48",
+        "turns": 681,
+        "extraction_cache_hits": 0,
+        "extraction_failed": 0,
+        "entities_kept": 799,
+        "relations_kept": 814,
+        "facts_dropped": {
+          "evidence_not_in_turn": 144,
+          "question": 39,
+          "knows_between_speakers": 20,
+          "type_violation": 15,
+          "subject_not_in_turn": 3,
+          "family_not_stated": 2
+        },
+        "converted_unknown_type": 14,
+        "fuzzy_evidence_accepted": 9,
+        "nodes_created": 339,
+        "merged_exact": 450,
+        "merged_embedding": 10,
+        "blocked_event_merges": 1,
+        "facts_created": 757,
+        "facts_reinforced": 56,
+        "facts_stored_closed": 1,
+        "retired_ended": 0,
+        "retired_schema_rule": 10,
+        "retired_llm": 0,
+        "llm_checks": 0,
+        "llm_check_failed": 0,
+        "llm_pairs": 0,
+        "llm_pairs_unlabelled": 0,
+        "llm_labels": {},
+        "apply_s": 62.85999999998603
+      },
+      "graph": {
+        "entities": 339,
+        "current_facts": 747,
+        "superseded_facts": 11,
+        "archived_facts": 0
+      },
+      "turns": 681
+    },
+    "conv-49": {
+      "stats": {
+        "conversation": "conv-49",
+        "turns": 509,
+        "extraction_cache_hits": 0,
+        "extraction_failed": 0,
+        "entities_kept": 623,
+        "relations_kept": 651,
+        "facts_dropped": {
+          "evidence_not_in_turn": 101,
+          "question": 47,
+          "knows_between_speakers": 36,
+          "type_violation": 5,
+          "subject_not_in_turn": 4,
+          "family_not_stated": 3,
+          "negated_participation": 1
+        },
+        "converted_unknown_type": 12,
+        "fuzzy_evidence_accepted": 0,
+        "nodes_created": 246,
+        "merged_exact": 372,
+        "merged_embedding": 5,
+        "blocked_event_merges": 1,
+        "facts_created": 615,
+        "facts_reinforced": 36,
+        "facts_stored_closed": 0,
+        "retired_ended": 0,
+        "retired_schema_rule": 4,
+        "retired_llm": 0,
+        "llm_checks": 0,
+        "llm_check_failed": 0,
+        "llm_pairs": 0,
+        "llm_pairs_unlabelled": 0,
+        "llm_labels": {},
+        "apply_s": 53.03099999995902
+      },
+      "graph": {
+        "entities": 246,
+        "current_facts": 611,
+        "superseded_facts": 4,
+        "archived_facts": 0
+      },
+      "turns": 509
+    },
+    "conv-50": {
+      "stats": {
+        "conversation": "conv-50",
+        "turns": 568,
+        "extraction_cache_hits": 0,
+        "extraction_failed": 0,
+        "entities_kept": 839,
+        "relations_kept": 833,
+        "facts_dropped": {
+          "evidence_not_in_turn": 138,
+          "question": 52,
+          "knows_between_speakers": 39,
+          "type_violation": 16,
+          "subject_not_in_turn": 7,
+          "family_not_stated": 1
+        },
+        "converted_unknown_type": 17,
+        "fuzzy_evidence_accepted": 4,
+        "nodes_created": 374,
+        "merged_exact": 458,
+        "merged_embedding": 7,
+        "blocked_event_merges": 0,
+        "facts_created": 787,
+        "facts_reinforced": 46,
+        "facts_stored_closed": 0,
+        "retired_ended": 0,
+        "retired_schema_rule": 0,
+        "retired_llm": 0,
+        "llm_checks": 0,
+        "llm_check_failed": 0,
+        "llm_pairs": 0,
+        "llm_pairs_unlabelled": 0,
+        "llm_labels": {},
+        "apply_s": 153.2029999999795
+      },
+      "graph": {
+        "entities": 374,
+        "current_facts": 787,
+        "superseded_facts": 0,
+        "archived_facts": 0
+      },
+      "turns": 568
+    }
+  },
+  "graphmem_ingest_runs": [
+    {
+      "convs": [
+        "conv-41",
+        "conv-42",
+        "conv-43",
+        "conv-44",
+        "conv-47",
+        "conv-48",
+        "conv-49",
+        "conv-50"
+      ],
+      "wall_s": 3649.9,
+      "usage": {
+        "extraction": {
+          "calls": 5094,
+          "cache_hits": 0,
+          "retries": 8,
+          "input_tokens": 8210247,
+          "output_tokens": 877521,
+          "request_s": 13928.8,
+          "cached_input_tokens": 0,
+          "cached_output_tokens": 0,
+          "cached_request_s": 0.0,
+          "max_output_tokens": 704,
+          "reasoning_responses": 0,
+          "json_ok": 5094,
+          "json_repaired": 0,
+          "json_failed": 0,
+          "fences_stripped": 0,
+          "think_stripped": 0,
+          "wall_s": 3529.0,
+          "out_tok_per_s_stream": 63.0,
+          "out_tok_per_s_aggregate": 248.7,
+          "mean_output_tokens": 172.3
+        }
+      }
+    }
+  ],
+  "mem0_ingest": {
+    "conv-41": {
+      "next": 340,
+      "added": 678,
+      "wall_s": 1304.879317099927,
+      "done": true,
+      "memories_total": 678,
+      "add_p50_s": 3.6879999999999997
+    },
+    "conv-42": {
+      "next": 323,
+      "added": 615,
+      "wall_s": 1187.6494738999754,
+      "done": true,
+      "memories_total": 615,
+      "add_p50_s": 3.614
+    },
+    "conv-43": {
+      "next": 349,
+      "added": 689,
+      "wall_s": 1324.1363559999736,
+      "done": true,
+      "memories_total": 689,
+      "add_p50_s": 3.716
+    },
+    "conv-44": {
+      "next": 343,
+      "added": 675,
+      "wall_s": 1260.0136081000092,
+      "done": true,
+      "memories_total": 675,
+      "add_p50_s": 3.567
+    },
+    "conv-47": {
+      "next": 355,
+      "added": 673,
+      "wall_s": 1275.5232558000134,
+      "done": true,
+      "memories_total": 673,
+      "add_p50_s": 3.575
+    },
+    "conv-48": {
+      "next": 347,
+      "added": 684,
+      "wall_s": 1258.915103700012,
+      "done": true,
+      "memories_total": 684,
+      "add_p50_s": 3.471
+    },
+    "conv-49": {
+      "next": 260,
+      "added": 505,
+      "wall_s": 990.6415957999416,
+      "done": true,
+      "memories_total": 505,
+      "add_p50_s": 3.658
+    },
+    "conv-50": {
+      "next": 292,
+      "added": 581,
+      "wall_s": 1109.9632344000274,
+      "done": true,
+      "memories_total": 581,
+      "add_p50_s": 3.776
+    }
+  },
+  "mem0_ingest_runs": [
+    {
+      "convs": [
+        "conv-41",
+        "conv-42",
+        "conv-43",
+        "conv-44",
+        "conv-47",
+        "conv-48",
+        "conv-49",
+        "conv-50"
+      ],
+      "wall_s": 2526.3,
+      "usage": {
+        "mem0": {
+          "calls": 2609,
+          "cache_hits": 0,
+          "retries": 0,
+          "input_tokens": 23308561,
+          "output_tokens": 254211,
+          "request_s": 8977.2,
+          "cached_input_tokens": 0,
+          "cached_output_tokens": 0,
+          "cached_request_s": 0.0,
+          "max_output_tokens": 2000,
+          "reasoning_responses": 0,
+          "json_ok": 0,
+          "json_repaired": 0,
+          "json_failed": 0,
+          "fences_stripped": 0,
+          "think_stripped": 0,
+          "wall_s": 2520.5,
+          "out_tok_per_s_stream": 28.3,
+          "out_tok_per_s_aggregate": 100.9,
+          "mean_output_tokens": 97.4
+        }
+      },
+      "max_prompt_tokens": 9235
+    }
+  ],
+  "freeze_check_at_end": "OK"
+}

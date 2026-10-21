@@ -1,0 +1,292 @@
+[23:20:49] test conversations: ['conv-41', 'conv-42', 'conv-43', 'conv-44', 'conv-47', 'conv-48', 'conv-49', 'conv-50']
+[23:20:50] LLM: qwen3:14b @ http://localhost:11435/v1
+[23:20:50] GraphMem ingestion: ['conv-41', 'conv-42', 'conv-43', 'conv-44', 'conv-47', 'conv-48', 'conv-49', 'conv-50']
+[23:29:01]   conv-50 extract 568/568
+[23:31:34]   conv-50 apply 568/568
+[23:37:30]   conv-47 extract 689/689
+[23:38:47]   conv-47 apply 689/689
+[23:43:10]   conv-49 extract 509/509
+[23:44:03]   conv-49 apply 509/509
+[23:50:50]   conv-41 extract 663/663
+[23:52:02]   conv-41 apply 663/663
+[23:58:25]   conv-43 extract 680/680
+[23:59:37]   conv-43 apply 680/680
+[00:05:42]   conv-48 extract 681/681
+[00:06:45]   conv-48 apply 681/681
+[00:12:31]   conv-42 extract 629/629
+[00:13:34]   conv-42 apply 629/629
+[00:20:27]   conv-44 extract 675/675
+[00:21:40]   conv-44 apply 675/675
+[00:21:40] GraphMem ingestion done in 3650s
+[00:21:41] Mem0 ingestion: ['conv-41', 'conv-42', 'conv-43', 'conv-44', 'conv-47', 'conv-48', 'conv-49', 'conv-50'] (4 at a time)
+[00:23:16]   mem0 conv-44 25/343 batches
+[00:23:24]   mem0 conv-42 25/323 batches
+[00:23:31]   mem0 conv-43 25/349 batches
+[00:23:33]   mem0 conv-41 25/340 batches
+[00:24:34]   mem0 conv-44 50/343 batches
+[00:24:44]   mem0 conv-42 50/323 batches
+[00:24:55]   mem0 conv-43 50/349 batches
+[00:25:05]   mem0 conv-41 50/340 batches
+[00:25:58]   mem0 conv-44 75/343 batches
+[00:26:18]   mem0 conv-42 75/323 batches
+[00:26:27]   mem0 conv-43 75/349 batches
+[00:26:40]   mem0 conv-41 75/340 batches
+[00:27:27]   mem0 conv-44 100/343 batches
+[00:27:55]   mem0 conv-42 100/323 batches
+[00:27:58]   mem0 conv-43 100/349 batches
+[00:28:20]   mem0 conv-41 100/340 batches
+[00:29:12]   mem0 conv-44 125/343 batches
+[00:29:18]   mem0 conv-42 125/323 batches
+[00:29:30]   mem0 conv-43 125/349 batches
+[00:30:00]   mem0 conv-41 125/340 batches
+[00:30:42]   mem0 conv-44 150/343 batches
+[00:30:42]   mem0 conv-42 150/323 batches
+[00:31:07]   mem0 conv-43 150/349 batches
+[00:31:35]   mem0 conv-41 150/340 batches
+[00:32:09]   mem0 conv-42 175/323 batches
+[00:32:16]   mem0 conv-44 175/343 batches
+[00:32:37]   mem0 conv-43 175/349 batches
+[00:33:08]   mem0 conv-41 175/340 batches
+[00:33:49]   mem0 conv-42 200/323 batches
+[00:33:51]   mem0 conv-44 200/343 batches
+[00:34:18]   mem0 conv-43 200/349 batches
+[00:34:41]   mem0 conv-41 200/340 batches
+[00:35:22]   mem0 conv-44 225/343 batches
+[00:35:30]   mem0 conv-42 225/323 batches
+[00:35:52]   mem0 conv-43 225/349 batches
+[00:36:20]   mem0 conv-41 225/340 batches
+[00:36:57]   mem0 conv-44 250/343 batches
+[00:36:59]   mem0 conv-42 250/323 batches
+[00:37:20]   mem0 conv-43 250/349 batches
+[00:37:40]   mem0 conv-41 250/340 batches
+[00:38:22]   mem0 conv-44 275/343 batches
+[00:38:34]   mem0 conv-42 275/323 batches
+[00:39:06]   mem0 conv-41 275/340 batches
+[00:39:13]   mem0 conv-43 275/349 batches
+[00:40:04]   mem0 conv-42 300/323 batches
+[00:40:11]   mem0 conv-44 300/343 batches
+[00:40:42]   mem0 conv-41 300/340 batches
+[00:40:46]   mem0 conv-43 300/349 batches
+[00:41:34]   mem0 conv-42 done: 615 memories, 1188s
+[00:41:37]   mem0 conv-44 325/343 batches
+[00:42:21]   mem0 conv-41 325/340 batches
+[00:42:29]   mem0 conv-43 325/349 batches
+[00:42:46]   mem0 conv-44 done: 675 memories, 1260s
+[00:43:13]   mem0 conv-47 25/355 batches
+[00:43:31]   mem0 conv-41 done: 678 memories, 1305s
+[00:43:50]   mem0 conv-43 done: 689 memories, 1324s
+[00:44:08]   mem0 conv-48 25/347 batches
+[00:44:34]   mem0 conv-47 50/355 batches
+[00:44:59]   mem0 conv-49 25/260 batches
+[00:45:22]   mem0 conv-50 25/292 batches
+[00:45:45]   mem0 conv-48 50/347 batches
+[00:45:53]   mem0 conv-47 75/355 batches
+[00:46:35]   mem0 conv-49 50/260 batches
+[00:46:58]   mem0 conv-50 50/292 batches
+[00:47:19]   mem0 conv-47 100/355 batches
+[00:47:52]   mem0 conv-49 75/260 batches
+[00:48:07]   mem0 conv-48 75/347 batches
+[00:48:27]   mem0 conv-50 75/292 batches
+[00:48:48]   mem0 conv-47 125/355 batches
+[00:49:30]   mem0 conv-49 100/260 batches
+[00:49:34]   mem0 conv-48 100/347 batches
+[00:49:59]   mem0 conv-50 100/292 batches
+[00:50:23]   mem0 conv-47 150/355 batches
+[00:51:03]   mem0 conv-48 125/347 batches
+[00:51:03]   mem0 conv-49 125/260 batches
+[00:51:31]   mem0 conv-50 125/292 batches
+[00:51:58]   mem0 conv-47 175/355 batches
+[00:52:34]   mem0 conv-49 150/260 batches
+[00:52:38]   mem0 conv-48 150/347 batches
+[00:53:09]   mem0 conv-50 150/292 batches
+[00:53:30]   mem0 conv-47 200/355 batches
+[00:54:14]   mem0 conv-49 175/260 batches
+[00:54:15]   mem0 conv-48 175/347 batches
+[00:54:49]   mem0 conv-50 175/292 batches
+[00:54:54]   mem0 conv-47 225/355 batches
+[00:55:42]   mem0 conv-49 200/260 batches
+[00:55:42]   mem0 conv-48 200/347 batches
+[00:56:27]   mem0 conv-50 200/292 batches
+[00:56:35]   mem0 conv-47 250/355 batches
+[00:57:20]   mem0 conv-48 225/347 batches
+[00:57:50]   mem0 conv-49 225/260 batches
+[00:57:57]   mem0 conv-50 225/292 batches
+[00:58:00]   mem0 conv-47 275/355 batches
+[00:59:03]   mem0 conv-48 250/347 batches
+[00:59:21]   mem0 conv-49 250/260 batches
+[00:59:38]   mem0 conv-47 300/355 batches
+[00:59:43]   mem0 conv-50 250/292 batches
+[01:00:03]   mem0 conv-49 done: 505 memories, 991s
+[01:00:30]   mem0 conv-48 275/347 batches
+[01:01:10]   mem0 conv-47 325/355 batches
+[01:01:23]   mem0 conv-50 275/292 batches
+[01:01:59]   mem0 conv-48 300/347 batches
+[01:02:22]   mem0 conv-50 done: 581 memories, 1110s
+[01:02:38]   mem0 conv-47 350/355 batches
+[01:02:51]   mem0 conv-47 done: 673 memories, 1276s
+[01:03:07]   mem0 conv-48 325/347 batches
+[01:03:47]   mem0 conv-48 done: 684 memories, 1259s
+[01:03:47] Mem0 ingestion done in 2526s; max prompt 9235 tokens
+[01:03:47] $ scripts/dev_eval.py --out-dir results\phase4 generate --run phase4 --conv conv-41 conv-42 conv-43 conv-44 conv-47 conv-48 conv-49 conv-50 --allow-test --thinking --systems gm:l=0.0,a=1.0,prov=1 mem0:k=10 mem0:k=24 faiss:k=10 faiss:k=24
+answer LLM: qwen3:14b @ http://localhost:11435/v1 thinking=on
+  conv-41  gm:l=0.0,a=1.0,prov=1        answers  294.5s (152 new)  db p50   49.1 ms
+  conv-41  mem0:k=10                    answers  231.1s (152 new)  db p50   37.9 ms
+  conv-41  mem0:k=24                    answers  277.2s (152 new)  db p50   41.1 ms
+  conv-41  faiss:k=10                   answers  267.8s (152 new)  db p50    0.1 ms
+  conv-41  faiss:k=24                   answers  300.7s (152 new)  db p50    0.2 ms
+  conv-42  gm:l=0.0,a=1.0,prov=1        answers  375.4s (199 new)  db p50   44.9 ms
+  conv-42  mem0:k=10                    answers  389.7s (199 new)  db p50   42.5 ms
+  conv-42  mem0:k=24                    answers  414.5s (199 new)  db p50   39.1 ms
+  conv-42  faiss:k=10                   answers  381.8s (199 new)  db p50    0.1 ms
+  conv-42  faiss:k=24                   answers  436.8s (199 new)  db p50    0.1 ms
+  conv-43  gm:l=0.0,a=1.0,prov=1        answers  304.2s (178 new)  db p50   48.5 ms
+  conv-43  mem0:k=10                    answers  286.1s (178 new)  db p50   47.3 ms
+  conv-43  mem0:k=24                    answers  329.4s (178 new)  db p50   44.1 ms
+  conv-43  faiss:k=10                   answers  314.9s (178 new)  db p50    0.2 ms
+  conv-43  faiss:k=24                   answers  367.1s (178 new)  db p50    0.2 ms
+  conv-44  gm:l=0.0,a=1.0,prov=1        answers  226.7s (123 new)  db p50   46.3 ms
+  conv-44  mem0:k=10                    answers  201.8s (123 new)  db p50   46.3 ms
+  conv-44  mem0:k=24                    answers  228.1s (123 new)  db p50   40.9 ms
+  conv-44  faiss:k=10                   answers  213.6s (123 new)  db p50    0.2 ms
+  conv-44  faiss:k=24                   answers  215.4s (123 new)  db p50    0.2 ms
+  conv-47  gm:l=0.0,a=1.0,prov=1        answers  224.2s (150 new)  db p50   50.4 ms
+  conv-47  mem0:k=10                    answers  209.7s (150 new)  db p50   45.2 ms
+  conv-47  mem0:k=24                    answers  234.5s (150 new)  db p50   43.6 ms
+  conv-47  faiss:k=10                   answers  255.7s (150 new)  db p50    0.2 ms
+  conv-47  faiss:k=24                   answers  251.3s (150 new)  db p50    0.2 ms
+  conv-48  gm:l=0.0,a=1.0,prov=1        answers  371.8s (191 new)  db p50   48.2 ms
+  conv-48  mem0:k=10                    answers  334.5s (191 new)  db p50   45.7 ms
+  conv-48  mem0:k=24                    answers  359.6s (191 new)  db p50   43.8 ms
+  conv-48  faiss:k=10                   answers  296.5s (191 new)  db p50    0.2 ms
+  conv-48  faiss:k=24                   answers  395.9s (191 new)  db p50    0.1 ms
+  conv-49  gm:l=0.0,a=1.0,prov=1        answers  280.4s (156 new)  db p50   47.8 ms
+  conv-49  mem0:k=10                    answers  238.7s (156 new)  db p50   33.8 ms
+  conv-49  mem0:k=24                    answers  273.0s (156 new)  db p50   34.4 ms
+  conv-49  faiss:k=10                   answers  261.0s (156 new)  db p50    0.1 ms
+  conv-49  faiss:k=24                   answers  313.4s (156 new)  db p50    0.1 ms
+  conv-50  gm:l=0.0,a=1.0,prov=1        answers  291.4s (158 new)  db p50   45.2 ms
+  conv-50  mem0:k=10                    answers  275.8s (158 new)  db p50   40.7 ms
+  conv-50  mem0:k=24                    answers  319.3s (158 new)  db p50   38.8 ms
+  conv-50  faiss:k=10                   answers  284.9s (158 new)  db p50    0.2 ms
+  conv-50  faiss:k=24                   answers  324.9s (158 new)  db p50    0.1 ms
+wrote results\phase4\answers\phase4.jsonl (6535 rows)
+[04:32:01] $ scripts/dev_eval.py --out-dir results\phase4 judge --judge-model qwen3-32b-judge
+judge: qwen3-32b-judge @ http://localhost:11435/v1 (thinking off)
+  unloading qwen3:14b
+  /api/ps: qwen3-32b-judge:latest size=19.6 GiB vram=19.6 GiB (100.0% GPU), context_length=1024, other models loaded: none
+judging 4720 unique (question, gold, prediction) triples from 1 run(s)
+wrote results\phase4\judgments\qwen3-32b-judge.jsonl: 4720 judgments; 661s, calls=4720 cached=0
+[04:43:09] $ scripts/dev_eval.py --out-dir results\phase4 judge --judge-model qwen3:14b
+judge: qwen3:14b @ http://localhost:11435/v1 (thinking off)
+  unloading qwen3-32b-judge:latest
+  /api/ps: qwen3:14b size=18.4 GiB vram=18.4 GiB (100.0% GPU), context_length=16384, other models loaded: none
+judging 4720 unique (question, gold, prediction) triples from 1 run(s)
+wrote results\phase4\judgments\qwen3_14b.jsonl: 4720 judgments; 327s, calls=4720 cached=0
+[04:48:40] $ scripts/dev_eval.py --out-dir results\phase4 final --convs conv-41 conv-42 conv-43 conv-44 conv-47 conv-48 conv-49 conv-50 --systems GraphMem (frozen)=gm:l=0.0,a=1.0,prov=1 Mem0 (k10)=mem0:k=10 Mem0 token-matched (k24)=mem0:k=24 FAISS (k10)=faiss:k=10 FAISS token-matched (k24)=faiss:k=24 --sample-systems gm:l=0.0,a=1.0,prov=1 mem0:k=10 mem0:k=24 faiss:k=10 faiss:k=24 --sample-out judge_sample_50_test.md
+# Results: conv-41, conv-42, conv-43, conv-44, conv-47, conv-48, conv-49, conv-50; thinking ON; judge accuracy % [95% bootstrap CI over questions]
+judges: qwen3_14b, qwen3-32b-judge
+
+| System | Judge | n | single-hop | multi-hop | temporal | open-domain | **Overall** | F1 |
+|---|---|---|---|---|---|---|---|---|
+| GraphMem (frozen) | qwen3_14b | 1307 | 55.8 [52.1, 59.6] (n=727) | 27.6 [22.2, 33.1] (n=239) | 59.3 [53.1, 65.1] (n=258) | 33.7 [24.1, 43.4] (n=83) | **50.0 [47.4, 52.7]** | 46.5 |
+| GraphMem (frozen) | qwen3-32b-judge | 1307 | 63.1 [59.4, 66.6] (n=727) | 35.1 [29.3, 41.0] (n=239) | 70.2 [64.3, 75.6] (n=258) | 39.8 [30.1, 49.4] (n=83) | **57.9 [55.2, 60.6]** | 46.5 |
+| Mem0 (k10) | qwen3_14b | 1307 | 59.7 [56.1, 63.1] (n=727) | 25.9 [20.1, 31.4] (n=239) | 46.1 [40.3, 51.9] (n=258) | 25.3 [16.9, 34.9] (n=83) | **48.7 [46.0, 51.3]** | 44.1 |
+| Mem0 (k10) | qwen3-32b-judge | 1307 | 69.9 [66.7, 73.0] (n=727) | 32.6 [26.8, 38.5] (n=239) | 60.1 [54.3, 65.9] (n=258) | 36.1 [26.5, 47.0] (n=83) | **59.0 [56.3, 61.6]** | 44.1 |
+| Mem0 token-matched (k24) | qwen3_14b | 1307 | 64.5 [61.2, 67.8] (n=727) | 33.9 [28.0, 39.7] (n=239) | 50.0 [43.8, 56.2] (n=258) | 25.3 [16.9, 34.9] (n=83) | **53.6 [50.9, 56.2]** | 47.3 |
+| Mem0 token-matched (k24) | qwen3-32b-judge | 1307 | 73.5 [70.4, 76.5] (n=727) | 43.1 [36.4, 49.4] (n=239) | 66.7 [60.9, 72.1] (n=258) | 34.9 [25.3, 44.6] (n=83) | **64.1 [61.5, 66.6]** | 47.3 |
+| FAISS (k10) | qwen3_14b | 1307 | 45.3 [41.5, 48.7] (n=727) | 16.3 [11.7, 21.3] (n=239) | 39.9 [34.1, 45.7] (n=258) | 28.9 [19.3, 38.6] (n=83) | **37.9 [35.3, 40.6]** | 36.8 |
+| FAISS (k10) | qwen3-32b-judge | 1307 | 53.1 [49.4, 56.5] (n=727) | 20.5 [15.5, 25.9] (n=239) | 48.1 [41.9, 53.9] (n=258) | 32.5 [22.9, 42.2] (n=83) | **44.8 [42.2, 47.5]** | 36.8 |
+| FAISS token-matched (k24) | qwen3_14b | 1307 | 51.6 [48.0, 55.2] (n=727) | 25.9 [20.5, 31.4] (n=239) | 46.9 [40.7, 52.7] (n=258) | 31.3 [21.7, 41.0] (n=83) | **44.7 [42.2, 47.3]** | 42.7 |
+| FAISS token-matched (k24) | qwen3-32b-judge | 1307 | 60.1 [56.5, 63.4] (n=727) | 31.4 [25.5, 37.2] (n=239) | 57.0 [51.2, 62.8] (n=258) | 36.1 [26.5, 45.8] (n=83) | **52.7 [50.2, 55.4]** | 42.7 |
+
+## Retrieval latency and answer step (thinking on)
+| System | retrieval-only p50 / p95 ms | end-to-end retrieval p50 / p95 ms | answer s/q | answer out tok | prompt tok |
+|---|---|---|---|---|---|
+| GraphMem (frozen) | 47.3 / 71.6 | 64.2 / 94.2 | 7.11 | 424 | 1314 |
+| Mem0 (k10) | 42.3 / 72.1 | 140.4 / 226.4 | 6.40 | 428 | 676 |
+| Mem0 token-matched (k24) | 41.1 / 74.0 | 134.6 / 223.7 | 7.36 | 448 | 1271 |
+| FAISS (k10) | 0.2 / 0.3 | 16.4 / 28.4 | 6.78 | 456 | 700 |
+| FAISS token-matched (k24) | 0.1 / 0.3 | 13.8 / 24.5 | 7.84 | 477 | 1329 |
+
+judge agreement on final-table answers: 4720 triples, raw 90.0%, Cohen's kappa 0.799; qwen3_14b C-rate 38.9%, qwen3-32b-judge C-rate 48.6%; confusion (qwen3_14/qwen3-32): {'CC': 1829, 'WW': 2419, 'WC': 464, 'CW': 8}
+
+judge agreement on all dev answers: 4720 triples, raw 90.0%, Cohen's kappa 0.799; qwen3_14b C-rate 38.9%, qwen3-32b-judge C-rate 48.6%; confusion (qwen3_14/qwen3-32): {'CC': 1829, 'WW': 2419, 'WC': 464, 'CW': 8}
+
+wrote results\phase4\judge_sample_50_test.md (5 of 50 rows where the judges disagree)
+[04:49:12] $ scripts/dev_eval.py --out-dir results\phase4 paired --convs conv-41 conv-42 conv-43 conv-44 conv-47 conv-48 conv-49 conv-50 --out phase4 --pairs gm:l=0.0,a=1.0,prov=1|mem0:k=10 gm:l=0.0,a=1.0,prov=1|mem0:k=24 gm:l=0.0,a=1.0,prov=1|faiss:k=10 gm:l=0.0,a=1.0,prov=1|faiss:k=24
+# Paired bootstrap over questions (conv-41, conv-42, conv-43, conv-44, conv-47, conv-48, conv-49, conv-50; thinking on): A minus B, accuracy points
+10,000 resamples; [95% CI]; p = two-sided bootstrap p-value
+
+## GraphMem + provenance vs mem0:k=10, judge qwen3_14b (n=1307)
+| category | n | A acc | B acc | A-B [95% CI] | p |
+|---|---|---|---|---|---|
+| single-hop | 727 | 55.8 | 59.7 | -3.9 [-7.7, +0.0] | 0.056 |
+| multi-hop | 239 | 27.6 | 25.9 | +1.7 [-3.8, +7.1] | 0.588 |
+| temporal | 258 | 59.3 | 46.1 | +13.2 [+7.0, +19.8] | 0.000 |
+| open-domain | 83 | 33.7 | 25.3 | +8.4 [+2.4, +15.7] | 0.016 |
+| overall | 1307 | 50.0 | 48.7 | +1.3 [-1.4, +4.1] | 0.357 |
+
+## GraphMem + provenance vs mem0:k=10, judge qwen3-32b-judge (n=1307)
+| category | n | A acc | B acc | A-B [95% CI] | p |
+|---|---|---|---|---|---|
+| single-hop | 727 | 63.1 | 69.9 | -6.7 [-10.5, -3.0] | 0.001 |
+| multi-hop | 239 | 35.1 | 32.6 | +2.5 [-3.8, +8.8] | 0.456 |
+| temporal | 258 | 70.2 | 60.1 | +10.1 [+3.9, +16.3] | 0.002 |
+| open-domain | 83 | 39.8 | 36.1 | +3.6 [-6.0, +13.3] | 0.520 |
+| overall | 1307 | 57.9 | 59.0 | -1.1 [-3.8, +1.8] | 0.453 |
+
+## GraphMem + provenance vs mem0:k=24, judge qwen3_14b (n=1307)
+| category | n | A acc | B acc | A-B [95% CI] | p |
+|---|---|---|---|---|---|
+| single-hop | 727 | 55.8 | 64.5 | -8.7 [-12.7, -4.7] | 0.000 |
+| multi-hop | 239 | 27.6 | 33.9 | -6.3 [-12.1, -0.4] | 0.045 |
+| temporal | 258 | 59.3 | 50.0 | +9.3 [+2.7, +16.3] | 0.007 |
+| open-domain | 83 | 33.7 | 25.3 | +8.4 [+1.2, +16.9] | 0.037 |
+| overall | 1307 | 50.0 | 53.6 | -3.6 [-6.4, -0.8] | 0.016 |
+
+## GraphMem + provenance vs mem0:k=24, judge qwen3-32b-judge (n=1307)
+| category | n | A acc | B acc | A-B [95% CI] | p |
+|---|---|---|---|---|---|
+| single-hop | 727 | 63.1 | 73.5 | -10.3 [-14.2, -6.5] | 0.000 |
+| multi-hop | 239 | 35.1 | 43.1 | -7.9 [-14.6, -1.7] | 0.018 |
+| temporal | 258 | 70.2 | 66.7 | +3.5 [-2.7, +9.7] | 0.277 |
+| open-domain | 83 | 39.8 | 34.9 | +4.8 [-4.8, +14.5] | 0.365 |
+| overall | 1307 | 57.9 | 64.1 | -6.2 [-9.0, -3.4] | 0.000 |
+
+## GraphMem + provenance vs faiss:k=10, judge qwen3_14b (n=1307)
+| category | n | A acc | B acc | A-B [95% CI] | p |
+|---|---|---|---|---|---|
+| single-hop | 727 | 55.8 | 45.3 | +10.6 [+6.5, +14.9] | 0.000 |
+| multi-hop | 239 | 27.6 | 16.3 | +11.3 [+5.9, +16.7] | 0.000 |
+| temporal | 258 | 59.3 | 39.9 | +19.4 [+12.4, +26.4] | 0.000 |
+| open-domain | 83 | 33.7 | 28.9 | +4.8 [-2.4, +13.3] | 0.303 |
+| overall | 1307 | 50.0 | 37.9 | +12.1 [+9.2, +15.1] | 0.000 |
+
+## GraphMem + provenance vs faiss:k=10, judge qwen3-32b-judge (n=1307)
+| category | n | A acc | B acc | A-B [95% CI] | p |
+|---|---|---|---|---|---|
+| single-hop | 727 | 63.1 | 53.1 | +10.0 [+5.9, +14.3] | 0.000 |
+| multi-hop | 239 | 35.1 | 20.5 | +14.6 [+8.8, +20.5] | 0.000 |
+| temporal | 258 | 70.2 | 48.1 | +22.1 [+15.5, +28.7] | 0.000 |
+| open-domain | 83 | 39.8 | 32.5 | +7.2 [+0.0, +15.7] | 0.095 |
+| overall | 1307 | 57.9 | 44.8 | +13.1 [+10.1, +16.1] | 0.000 |
+
+## GraphMem + provenance vs faiss:k=24, judge qwen3_14b (n=1307)
+| category | n | A acc | B acc | A-B [95% CI] | p |
+|---|---|---|---|---|---|
+| single-hop | 727 | 55.8 | 51.6 | +4.3 [+0.0, +8.5] | 0.056 |
+| multi-hop | 239 | 27.6 | 25.9 | +1.7 [-3.8, +7.1] | 0.602 |
+| temporal | 258 | 59.3 | 46.9 | +12.4 [+5.8, +19.0] | 0.000 |
+| open-domain | 83 | 33.7 | 31.3 | +2.4 [-6.0, +10.8] | 0.673 |
+| overall | 1307 | 50.0 | 44.7 | +5.3 [+2.4, +8.3] | 0.001 |
+
+## GraphMem + provenance vs faiss:k=24, judge qwen3-32b-judge (n=1307)
+| category | n | A acc | B acc | A-B [95% CI] | p |
+|---|---|---|---|---|---|
+| single-hop | 727 | 63.1 | 60.1 | +3.0 [-1.1, +7.2] | 0.159 |
+| multi-hop | 239 | 35.1 | 31.4 | +3.8 [-2.1, +9.6] | 0.236 |
+| temporal | 258 | 70.2 | 57.0 | +13.2 [+6.6, +20.2] | 0.000 |
+| open-domain | 83 | 39.8 | 36.1 | +3.6 [-3.6, +12.0] | 0.444 |
+| overall | 1307 | 57.9 | 52.7 | +5.2 [+2.3, +8.2] | 0.000 |
+
+[04:51:19] freeze check at end: OK
