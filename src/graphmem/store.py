@@ -327,6 +327,22 @@ class GraphStore:
         )
         return rows[0]["n"] if rows else 0
 
+    async def recent_turns(self, limit: int, before: datetime | None = None) -> list[dict[str, Any]]:
+        """The `limit` most recent turns (oldest first), optionally strictly before `before`."""
+        if limit <= 0:
+            return []
+        rows = await self._run(
+            f"""
+            MATCH (t:Turn:{self.ns})
+            WHERE $before IS NULL OR t.session_time < $before
+            RETURN t.dia_id AS dia_id, t.text AS text, t.session_time AS session_time
+            ORDER BY t.session_time DESC, t.dia_id DESC LIMIT $limit
+            """,
+            before=before,
+            limit=limit,
+        )
+        return list(reversed(rows))
+
     # ------------------------------------------------------------ facts: writes
 
     async def add_fact(
