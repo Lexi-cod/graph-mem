@@ -24,25 +24,13 @@ alpha 1.0, k 10, 1-hop expansion on, provenance on, pruning off, merge threshold
   every N turns]; prune node honors `prune_enabled` (off in the frozen config).
 - `graphmem.api` (FastAPI): POST /memory/query, /memory/update, /memory/prune, /agent/turn;
   GET /health. Run: `uvicorn graphmem.api:app --port 8000` (install extra `api`).
-- Not merged into `main` until Phase 4 finishes (merging changes source hashes, so the
-  freeze check would then report drift by design).
+- Merged into `main` after Phase 4 finished (the freeze check on `main` now reports drift by
+  design; check out `phase4-frozen` to reproduce the test run).
 
-## Next
-- Phase 3: LangGraph agent (retrieve -> reason -> optional write -> answer; prune every N
-  turns) + FastAPI (`/memory/query`, `/memory/update`, `/memory/prune`).
-- Phase 4: LoCoMo benchmark on the 8 test conversations: GraphMem (prune off / on),
-  Mem0 (same Ollama model + MiniLM), FAISS RAG over raw turns. Judge + F1 per category,
-  retrieval latency (DB-only and end-to-end), context tokens, wall time and tokens/s.
-  Ablations: contradiction mode (llm / rules / off), 1-hop expansion on / off.
-- Sweep lambda / alpha / prune threshold on dev only (conv-26, conv-30).
-
-## Evaluation protocol (all local, no paid APIs)
-- Answer model: qwen3:14b (Ollama, thinking off by default; `GRAPHMEM_ANSWER_THINKING` flag).
-- Judge: separate pass after all answers exist (`scripts/dev_eval.py judge`), model set by
-  `GRAPHMEM_JUDGE_MODEL`. Plan: a ~32B-class instruct model at 4-bit on the same Ollama
-  server, thinking off. The answer model is unloaded first; both are never loaded together.
-  Report agreement with the 14B judge (raw %, Cohen's kappa) and a 50-row hand-check sample.
-- Contradiction mode default `rules`; `llm` and `off` are ablations.
+## Status
+- Phase 4 done (results/phase4/, README.md); config was frozen at tag `phase4-frozen` (ce3dc69).
+- Phase 3 merged into `main`; live smoke test in results/phase3_smoke.md.
+- LongMemEval: deferred (not now).
 
 ## Later (noted, not built)
 - Second benchmark: LongMemEval subset, question types knowledge-update and
