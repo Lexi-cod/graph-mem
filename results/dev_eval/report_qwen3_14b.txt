@@ -1,0 +1,26 @@
+
+### 4a  decay sweep: overall judge accuracy % (conv-26 / conv-30 / both), rows lambda, cols alpha
+  lambda                    a=0.85                   a=0.9                  a=0.95                   a=1.0
+  0.0         46.7 / 42.0 / 45.1    46.7 / 42.0 / 45.1    46.7 / 42.0 / 45.1    46.7 / 42.0 / 45.1
+  0.001       45.4 / 39.5 / 43.3    46.1 / 39.5 / 43.8    48.7 / 42.0 / 46.4    46.7 / 42.0 / 45.1
+  0.005       43.4 / 42.0 / 42.9    42.8 / 43.2 / 42.9    46.1 / 40.7 / 44.2    46.7 / 42.0 / 45.1
+  0.01        38.2 / 39.5 / 38.6    41.4 / 40.7 / 41.2    44.7 / 39.5 / 42.9    46.7 / 42.0 / 45.1
+  faiss       31.6 / 38.3 / 33.9
+
+### 4b  decay-for-prune-only (alpha=1 retrieval): accuracy vs graph size, both dev convs
+  lambda  threshold     acc %  facts kept  archived
+  -       off            45.1        1152         0
+  0.01    0.05           45.1        1152         0
+  0.01    0.1            45.1        1152         0
+  0.01    0.2            38.6        1007       145
+  0.05    0.05           22.3         484       669
+  0.05    0.1            16.7         328       825
+  0.05    0.2             9.9         210       943
+
+### conv-26 systems: judge acc % per category, F1, latency, answer step
+  system                  think   single-hop   multi-hop    temporal open-domain  overall    F1   db p50/p95 ms   e2e p50/p95 ms ans wall s ans s/q out tok prompt tok
+  faiss                   off           44.3         9.4        21.6        46.2     31.6  36.9     0.2/0.4         32.9/39.1          24.4    0.63       8        697
+  gm:l=0.0,a=1.0          off           44.3        25.0        75.7        30.8     46.7  44.0    73.7/145.9      123.9/393.6          0.1    0.58       9        628
+  faiss                   on            48.6         9.4        56.8        38.5     41.4  38.6     0.2/0.3         30.3/39.0         218.2    5.70     376        691
+  gm:l=0.0,a=1.0          on            45.7        15.6        75.7        46.2     46.7  45.1    65.1/87.8        98.7/127.4        210.1    5.47     360        622
+  (ans wall s = wall time of the concurrent answer phase when uncached; ans s/q = mean per-request latency; out tok includes thinking tokens)

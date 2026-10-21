@@ -1,0 +1,41 @@
+{
+  "conv": "conv-26",
+  "turns": 419,
+  "batch": 2,
+  "add_calls": 214,
+  "wall_s": 587.7,
+  "add_p50_s": 2.65,
+  "add_p95_s": 3.94,
+  "memories_added": 441,
+  "memories_total": 441,
+  "llm": {
+    "provider": "openai-compat",
+    "base_url": "http://localhost:11435/v1",
+    "model": "qwen3:14b"
+  },
+  "usage_mem0": {
+    "calls": 214,
+    "cache_hits": 0,
+    "retries": 0,
+    "input_tokens": 1927933,
+    "output_tokens": 22609,
+    "request_s": 489.5,
+    "cached_input_tokens": 0,
+    "cached_output_tokens": 0,
+    "cached_request_s": 0.0,
+    "max_output_tokens": 232,
+    "reasoning_responses": 0,
+    "json_ok": 0,
+    "json_repaired": 0,
+    "json_failed": 0,
+    "fences_stripped": 0,
+    "think_stripped": 0,
+    "wall_s": 587.3,
+    "out_tok_per_s_stream": 46.2,
+    "out_tok_per_s_aggregate": 38.5,
+    "mean_output_tokens": 105.6
+  },
+  "max_prompt_tokens": 9261,
+  "server_num_ctx": 16384,
+  "prompt_overflow_risk": false
+}

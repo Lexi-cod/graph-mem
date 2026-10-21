@@ -1,0 +1,132 @@
+{
+  "conv": "conv-30",
+  "turns": 369,
+  "llm": {
+    "provider": "openai-compat",
+    "base_url": "http://localhost:11435/v1",
+    "model": "qwen3:14b"
+  },
+  "judge": {
+    "provider": "openai-compat",
+    "base_url": "http://localhost:11435/v1",
+    "model": "qwen3:14b",
+    "thinking": "off"
+  },
+  "contradiction_mode": "rules",
+  "wall_s": 132.4844450999517,
+  "validity": {
+    "turns": 369,
+    "valid_first_try": 369,
+    "repaired": 0,
+    "failed": 0,
+    "fence_stripped": 0,
+    "valid_rate": 1.0,
+    "first_try_rate": 1.0,
+    "repair_rate": 0.0
+  },
+  "stats": {
+    "conversation": "conv-30",
+    "turns": 369,
+    "extraction_cache_hits": 369,
+    "extraction_failed": 0,
+    "entities_kept": 483,
+    "relations_kept": 558,
+    "facts_dropped": {
+      "evidence_not_in_turn": 91,
+      "knows_between_speakers": 39,
+      "question": 33,
+      "subject_not_in_turn": 9,
+      "type_violation": 8
+    },
+    "converted_unknown_type": 22,
+    "fuzzy_evidence_accepted": 2,
+    "nodes_created": 168,
+    "merged_exact": 311,
+    "merged_embedding": 4,
+    "blocked_event_merges": 0,
+    "facts_created": 501,
+    "facts_reinforced": 56,
+    "facts_stored_closed": 1,
+    "retired_ended": 0,
+    "retired_schema_rule": 0,
+    "retired_llm": 0,
+    "llm_checks": 0,
+    "llm_check_failed": 0,
+    "llm_pairs": 0,
+    "llm_pairs_unlabelled": 0,
+    "llm_labels": {},
+    "apply_s": 120.5
+  },
+  "graph": {
+    "entities": 168,
+    "current_facts": 501,
+    "superseded_facts": 1,
+    "archived_facts": 0
+  },
+  "counts": {
+    "entities": {
+      "Concept": 118,
+      "Event": 38,
+      "Organization": 9,
+      "Person": 3
+    },
+    "facts": {
+      "HAS_ATTRIBUTE": 319,
+      "OWNS": 49,
+      "PLANS": 44,
+      "PARTICIPATED_IN": 38,
+      "LIKES": 20,
+      "RELATED_TO": 12,
+      "INTERESTED_IN": 11,
+      "WORKS_AT": 7,
+      "LOCATED_IN": 2
+    }
+  },
+  "usage": {},
+  "extraction_system_prompt_chars": 5386,
+  "settings": {
+    "neo4j_uri": "bolt://localhost:7687",
+    "neo4j_user": "neo4j",
+    "neo4j_password": "graphmem-dev",
+    "neo4j_database": "neo4j",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "decay_lambda": 0.0,
+    "retrieval_alpha": 1.0,
+    "retrieval_k": 10,
+    "fact_overfetch": 20,
+    "expand": true,
+    "expand_per_entity": 2,
+    "expand_max": null,
+    "provenance": false,
+    "include_history": true,
+    "history_penalty": 0.15,
+    "prune_enabled": false,
+    "prune_threshold": 0.05,
+    "llm_base_url": "http://localhost:11435/v1",
+    "llm_model": "qwen3:14b",
+    "llm_max_concurrency": 4,
+    "llm_max_retries": 8,
+    "llm_timeout_s": 600.0,
+    "llm_disable_thinking": true,
+    "extraction_max_tokens": 2048,
+    "answer_thinking": true,
+    "answer_max_tokens": 64,
+    "answer_thinking_max_tokens": 4096,
+    "contradiction_max_tokens": 1024,
+    "cache_dir": "cache",
+    "judge_model": null,
+    "judge_base_url": null,
+    "resolution_threshold": 0.94,
+    "duplicate_fact_cosine": 0.95,
+    "contradiction_mode": "rules",
+    "contradiction_candidates": 5,
+    "event_resolution_threshold": 0.95,
+    "preference_target_cosine": 0.9,
+    "extraction_context_turns": 3,
+    "dev_conversations": [
+      "conv-26",
+      "conv-30"
+    ]
+  }
+}

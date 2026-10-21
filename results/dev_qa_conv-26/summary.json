@@ -1,0 +1,239 @@
+{
+  "conv": "conv-26",
+  "k": 10,
+  "n_questions": 152,
+  "judge": {
+    "provider": "openai-compat",
+    "base_url": "http://localhost:11435/v1",
+    "model": "qwen3:14b",
+    "reason": "Gemini unavailable (Gemini preflight failed for gemini-2.5-flash: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not vali); fell back to local model"
+  },
+  "answer_llm": {
+    "provider": "openai-compat",
+    "base_url": "http://localhost:11435/v1",
+    "model": "qwen3:14b"
+  },
+  "now": "2023-10-22 09:55:00+00:00",
+  "graph": {
+    "entities": 253,
+    "current_facts": 650,
+    "superseded_facts": 0,
+    "archived_facts": 0
+  },
+  "systems": {
+    "graphmem": {
+      "by_category": {
+        "single-hop": {
+          "n": 70,
+          "judge_acc": 8.6,
+          "f1": 10.6
+        },
+        "multi-hop": {
+          "n": 32,
+          "judge_acc": 15.6,
+          "f1": 16.9
+        },
+        "temporal": {
+          "n": 37,
+          "judge_acc": 21.6,
+          "f1": 19.0
+        },
+        "open-domain": {
+          "n": 13,
+          "judge_acc": 15.4,
+          "f1": 8.6
+        },
+        "overall": {
+          "n": 152,
+          "judge_acc": 13.8,
+          "f1": 13.8
+        }
+      },
+      "latency_ms": {
+        "db_p50": 56.29,
+        "db_p95": 73.16,
+        "e2e_p50": 87.59,
+        "e2e_p95": 105.43
+      },
+      "context": {
+        "items": 13.5,
+        "expanded": 3.5,
+        "prompt_tokens": 506.5,
+        "context_chars": 1100.6,
+        "evidence_hit": 23.7
+      }
+    },
+    "graphmem_noexpand": {
+      "by_category": {
+        "single-hop": {
+          "n": 70,
+          "judge_acc": 8.6,
+          "f1": 10.7
+        },
+        "multi-hop": {
+          "n": 32,
+          "judge_acc": 12.5,
+          "f1": 15.0
+        },
+        "temporal": {
+          "n": 37,
+          "judge_acc": 16.2,
+          "f1": 13.8
+        },
+        "open-domain": {
+          "n": 13,
+          "judge_acc": 23.1,
+          "f1": 10.8
+        },
+        "overall": {
+          "n": 152,
+          "judge_acc": 12.5,
+          "f1": 12.4
+        }
+      },
+      "latency_ms": {
+        "db_p50": 30.44,
+        "db_p95": 35.17,
+        "e2e_p50": 61.11,
+        "e2e_p95": 68.8
+      },
+      "context": {
+        "items": 10,
+        "expanded": 0,
+        "prompt_tokens": 410.3,
+        "context_chars": 812.4,
+        "evidence_hit": 19.1
+      }
+    },
+    "graphmem_nodecay": {
+      "by_category": {
+        "single-hop": {
+          "n": 70,
+          "judge_acc": 40.0,
+          "f1": 36.9
+        },
+        "multi-hop": {
+          "n": 32,
+          "judge_acc": 25.0,
+          "f1": 29.2
+        },
+        "temporal": {
+          "n": 37,
+          "judge_acc": 70.3,
+          "f1": 74.9
+        },
+        "open-domain": {
+          "n": 13,
+          "judge_acc": 30.8,
+          "f1": 16.1
+        },
+        "overall": {
+          "n": 152,
+          "judge_acc": 43.4,
+          "f1": 42.7
+        }
+      },
+      "latency_ms": {
+        "db_p50": 54.2,
+        "db_p95": 69.0,
+        "e2e_p50": 85.32,
+        "e2e_p95": 101.95
+      },
+      "context": {
+        "items": 13.5,
+        "expanded": 3.5,
+        "prompt_tokens": 520.4,
+        "context_chars": 1131.7,
+        "evidence_hit": 75.7
+      }
+    },
+    "faiss": {
+      "by_category": {
+        "single-hop": {
+          "n": 70,
+          "judge_acc": 44.3,
+          "f1": 42.2
+        },
+        "multi-hop": {
+          "n": 32,
+          "judge_acc": 9.4,
+          "f1": 25.0
+        },
+        "temporal": {
+          "n": 37,
+          "judge_acc": 10.8,
+          "f1": 43.9
+        },
+        "open-domain": {
+          "n": 13,
+          "judge_acc": 38.5,
+          "f1": 18.4
+        },
+        "overall": {
+          "n": 152,
+          "judge_acc": 28.3,
+          "f1": 36.9
+        }
+      },
+      "latency_ms": {
+        "db_p50": 0.24,
+        "db_p95": 0.4,
+        "e2e_p50": 30.53,
+        "e2e_p95": 36.32
+      },
+      "context": {
+        "items": 10,
+        "expanded": 0,
+        "prompt_tokens": 590.7,
+        "context_chars": 1721.8,
+        "evidence_hit": 48.7
+      }
+    }
+  },
+  "usage": {
+    "answer": {
+      "calls": 608,
+      "cache_hits": 0,
+      "retries": 0,
+      "input_tokens": 308243,
+      "output_tokens": 4294,
+      "request_s": 439.5,
+      "cached_input_tokens": 0,
+      "cached_output_tokens": 0,
+      "cached_request_s": 0.0,
+      "max_output_tokens": 34,
+      "reasoning_responses": 0,
+      "json_ok": 0,
+      "json_repaired": 0,
+      "json_failed": 0,
+      "fences_stripped": 0,
+      "think_stripped": 0,
+      "wall_s": 113.2,
+      "out_tok_per_s_stream": 9.8,
+      "out_tok_per_s_aggregate": 37.9,
+      "mean_output_tokens": 7.1
+    },
+    "judge": {
+      "calls": 426,
+      "cache_hits": 182,
+      "retries": 0,
+      "input_tokens": 75764,
+      "output_tokens": 3418,
+      "request_s": 331.1,
+      "cached_input_tokens": 31857,
+      "cached_output_tokens": 1460,
+      "cached_request_s": 161.6,
+      "max_output_tokens": 10,
+      "reasoning_responses": 0,
+      "json_ok": 608,
+      "json_repaired": 0,
+      "json_failed": 0,
+      "fences_stripped": 0,
+      "think_stripped": 0,
+      "wall_s": 112.6,
+      "out_tok_per_s_stream": 10.3,
+      "out_tok_per_s_aggregate": 30.3,
+      "mean_output_tokens": 8.0
+    }
+  }
+}

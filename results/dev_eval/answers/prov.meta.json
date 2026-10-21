@@ -1,0 +1,68 @@
+{
+  "run": "prov",
+  "thinking": true,
+  "k": 10,
+  "answer_llm": {
+    "provider": "openai-compat",
+    "base_url": "http://localhost:11435/v1",
+    "model": "qwen3:14b"
+  },
+  "systems": [
+    "gm:l=0.0,a=1.0",
+    "gm:l=0.0,a=1.0,prov=1"
+  ],
+  "answer_phase": {
+    "conv-26|gm:l=0.0,a=1.0": {
+      "wall_s": 3.7,
+      "uncached": 0,
+      "n": 152,
+      "sum_latency_s": 831.7,
+      "mean_output_tokens": 360.1
+    },
+    "conv-26|gm:l=0.0,a=1.0,prov=1": {
+      "wall_s": 249.2,
+      "uncached": 152,
+      "n": 152,
+      "sum_latency_s": 979.4,
+      "mean_output_tokens": 374.3
+    },
+    "conv-30|gm:l=0.0,a=1.0": {
+      "wall_s": 1.9,
+      "uncached": 0,
+      "n": 81,
+      "sum_latency_s": 444.3,
+      "mean_output_tokens": 363.3
+    },
+    "conv-30|gm:l=0.0,a=1.0,prov=1": {
+      "wall_s": 132.7,
+      "uncached": 81,
+      "n": 81,
+      "sum_latency_s": 492.0,
+      "mean_output_tokens": 350.3
+    }
+  },
+  "usage": {
+    "answer_thinking": {
+      "calls": 233,
+      "cache_hits": 233,
+      "retries": 0,
+      "input_tokens": 299822,
+      "output_tokens": 85267,
+      "request_s": 1471.3,
+      "cached_input_tokens": 144923,
+      "cached_output_tokens": 84158,
+      "cached_request_s": 1276.0,
+      "max_output_tokens": 4096,
+      "reasoning_responses": 466,
+      "json_ok": 0,
+      "json_repaired": 0,
+      "json_failed": 0,
+      "fences_stripped": 0,
+      "think_stripped": 0,
+      "wall_s": 399.6,
+      "out_tok_per_s_stream": 58.0,
+      "out_tok_per_s_aggregate": 213.4,
+      "mean_output_tokens": 363.6
+    }
+  }
+}

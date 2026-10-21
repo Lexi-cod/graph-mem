@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+cache/
+data/
+results/**/*.jsonl
+results/*.log
+results/**/*.log
+results/phase4/
+*.tmp
